@@ -1,11 +1,13 @@
 # Aniline data model
-One Paragraph of project description goes here
+Aniline.
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+General purpose of this git-project is to provide a description of data model underlying the Aniline project.
 ## General model
-Data landscape is represented by few DB's:
+The data landscape is represented by a few layers:
 * <a href="Data lake.md">Data lake</a> - raw data received from data providers (Demyst, Bintelligent etc);
 * <a href="DWH.md">DWH</a> - prepared normalized data model;
 * Data mart - data slices, denormalized data best fit to UI;
 * Transactional/operational DB;
+
+#### <a href="https://app.diagrams.net/#G19FF3plWQwnvTChL08UDJsYsW722v7RZs">Drawio schema</a>
