@@ -13,6 +13,8 @@ info | string | General information about company.
 logo | bytes | Image, company's logo.
 site | string | The website of a company.
 startdate| date | Date from which to take the company into account.
+location | array(string) |
+industry | array(string) |
 ||
 
 ### Metric
@@ -104,7 +106,7 @@ Column | Type | Description
 arcdate | date | Archive date.
 companyid | int64 | Id of company.
 metricid | int64 | Id of metric.
-values | array<numeric> | Values.
+values | array numeric | Values.
 totalranking | int64 | Rank ...
 industryranking | int64 | Rank ...
 ||
@@ -126,5 +128,5 @@ Column | Type | Description
 --- | --- | ---
 companyid | int64 | Id of company.
 providerid | int64 | Id of provider.
-period | struct<fromdate date, tilldate date> | Period when the provider served the company.
+period | struct (fromdate date, tilldate date) | Period when the provider served the company.
 ||

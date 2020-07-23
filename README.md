@@ -2,7 +2,8 @@
 Aniline.
 
 ## Getting Started
-General purpose of this git-project is to provide a description of data model underlying the Aniline project.
+
+
 ## General model
 The data landscape is represented by a few layers:
 * <a href="Data lake.md">Data lake</a> - raw data received from data providers (Demyst, Bintelligent etc);
