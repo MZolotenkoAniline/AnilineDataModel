@@ -104,9 +104,9 @@ Values of metrics.
 Column | Type | Description
 --- | --- | ---
 arcdate | date | Archive date.
-companyid | int64 | Id of company.
+companyid | string | Id of company.
 metricid | int64 | Id of metric.
-values | array numeric | Values.
+values | array (struct name string, value numeric)) | Values.
 totalranking | int64 | Rank ...
 industryranking | int64 | Rank ...
 ||
